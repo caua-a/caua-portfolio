@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="icon" href="assets/img/bleach.ico" type="image/x-ico" />
+    <title>Meu portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Cauã</h1>
+      </div>
+      <nav class="navigation-bar">
+        <ul>
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="home" id="home">
+        <div class="content-left">
+          <h1>Olá, este é meu portfólio</h1>
+          <p>
+            Olá, eu sou Cauã. Este é o meu portfólio, onde você pode ver meus
+            projetos, habilidades e trabalhos em desenvolvimento.
+          </p>
+        </div>
+        <div class="content-right">
+          <img src="assets/img/katana-1.png" alt="Imagem de uma katana" />
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <div class="title-projects">
+          <h2><span>PROJETOS</span></h2>
+        </div>
+        <div class="content-cards">
+          <figure class="project-card">
+            <figcaption>
+              <h3>Agenda</h3>
+              <p>
+                Coleção de interfaces gráficas em Python usando Tkinter, com
+                integração ao SQLite para armazenamento de dados. Explora
+                botões, menus, campos de entrada e gestão de banco. <br />
+                <strong>Habilidades:</strong> Python · Tkinter · SQLite · Design
+                de interface · Lógica.
+              </p>
+              <a
+                href="https://github.com/caua-a/projetos_tkinterV2.git"
+                class="but-project"
+                role="button"
+                target="_blank"
+                >Ver projeto</a
+              >
+            </figcaption>
+          </figure>
+          <figure class="project-card">
+            <figcaption>
+              <h3>Jujutsu Drop</h3>
+              <p>
+                Jogo 2D em Python, inspirado em Jujutsu Kaisen, com
+                movimentação, pontuação e modos especiais. Demonstra lógica,
+                programação orientada a objetos e manipulação de eventos. <br />
+                <strong>Habilidades:</strong> Python · POO · Eventos · Lógica de
+                jogo.
+              </p>
+              <a
+                href="https://github.com/caua-a/Jogo-jujutsu.git"
+                class="but-project"
+                role="button"
+                target="_blank"
+                >Ver projeto</a
+              >
+            </figcaption>
+          </figure>
+          <figure class="project-card">
+            <figcaption>
+              <h3>Portfolio</h3>
+              <p>
+                Portfólio pessoal em HTML5 e CSS3 para apresentar projetos e
+                habilidades. Demonstra estrutura semântica e organização de
+                código. <br />
+                <strong>Habilidades:</strong> HTML semântico · Layout e
+                estrutura.
+              </p>
+              <a
+                href="https://github.com/caua-a/portfolio-2.git"
+                class="but-project"
+                role="button"
+                target="_blank"
+                >Ver projeto</a
+              >
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="title-contact">
+          <h2><span>CONTATO</span></h2>
+        </div>
+        <form>
+          <div>
+            <label for="name">Nome</label>
+            <input type="text" placeholder="Nome" required />
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email" required />
+          </div>
+
+          <div>
+            <textarea placeholder="Descrição" rows="5" required></textarea>
+          </div>
+
+          <div>
+            <button type="submit">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="data">
+        <p>&copy; 2025 Cauã Gustavo. Todos os direitos reservados.</p>
+        <p>Tema inspirado em <strong>Bleach</strong>.</p>
+      </div>
+    </footer>
+  </body>
+</html>
